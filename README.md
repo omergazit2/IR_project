@@ -5,7 +5,7 @@ This project is part of an Information Retrieval course at BGU University.
 
 The goal of the project is to implement a search engine for the entire English *Wikipedia* corpus.
 
-The dataset contain over 6 million documents and implemented in *Google Cloud*. 
+The dataset contain over 6 million documents and implemented in *Google Cloud Platform*. 
 
 ## Project Structure
 
