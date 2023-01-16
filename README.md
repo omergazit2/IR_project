@@ -25,7 +25,7 @@ The project is divided into 3 main parts:
        we saved the index in a binary format in GCP bucket.
 
 2. Search Engine (ir_tools) -
-    1. Loading the index - 
+    1. Loading the index (ir_tools/inverted_index_gcp) - 
         we loaded the indexes for the search from the project GCP bucket.
     2. Searching for a query (ir_tools/search_frontend) - 
        1. search - the main search function. this function is the main function of the search engine. we have implemented this part using BM25 on the body with stemming, jaccard distance for the title with stemming ranking and Page Rank. each got a weight in the calculation of the relevance score. we also implemented spelling correction word Ngram similarity.
